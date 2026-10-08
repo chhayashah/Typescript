@@ -31,3 +31,7 @@ console.log(m)
 // fix
 let demo: [Number, String] = [10, "manish"]
 console.log(demo)
+
+// readonly
+let color: readonly String[] = ["red", "blue"]
+console.log(color);
