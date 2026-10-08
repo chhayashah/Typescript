@@ -10,3 +10,6 @@ console.log(isLoggedIn);
 
 let userName: undefined | string = undefined;
 console.log(userName);
+
+let user: null | string = null;
+console.log(user);
