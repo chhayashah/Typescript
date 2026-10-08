@@ -23,3 +23,11 @@ l.push(70)
 // array of string
 let userList: String[] = ["chhaya", "kiran", "sukun"]
 console.log(userList)
+
+// any variable
+let m: any[] = [10, 99, "hello", "neha"]
+console.log(m)
+
+// fix
+let demo: [Number, String] = [10, "manish"]
+console.log(demo)
