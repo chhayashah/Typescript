@@ -34,4 +34,36 @@ console.log(demo)
 
 // readonly
 let color: readonly String[] = ["red", "blue"]
-console.log(color);
+// console.log(color);
+
+type User = {
+    name: string;
+    age: number;
+};
+
+let userObj: User = {
+    name: "chhaya",
+    age: 24
+};
+
+let userListnew: User[] = [
+    {
+        name: "prince",
+        age: 12
+    },
+    {
+        name: "demo",
+        age: 13
+    }
+];
+
+console.log(userListnew);
+
+
+// unknown
+
+let test: unknown = "chhaya shah"
+if (typeof (test) == "string") {
+    let t = test.toUpperCase()
+    console.log(t);
+}

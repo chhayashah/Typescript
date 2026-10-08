@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"tsc"
+    "start": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/chhayashah/Typescript#readme",
   "dependencies": {
+    "nodemon": "^3.1.14",
     "typescript": "^7.0.2"
   }
 }
