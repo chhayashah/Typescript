@@ -61,9 +61,17 @@ console.log(userListnew);
 
 
 // unknown
-
 let test: unknown = "chhaya shah"
 if (typeof (test) == "string") {
     let t = test.toUpperCase()
     console.log(t);
 }
+
+
+// function
+function addData(num1: number, num2: number): number{
+    return num1 + num2
+}
+
+let outPut = addData(10, 20)
+console.log(outPut)
