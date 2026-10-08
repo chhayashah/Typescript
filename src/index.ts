@@ -13,3 +13,6 @@ console.log(userName);
 
 let user: null | string = null;
 console.log(user);
+
+let l: number[] = [10, 20, 30, 50]
+console.log(l);
