@@ -91,3 +91,17 @@ if (typeof b === "string") {
 // - unknown: Requires you to check the type before performing type-specific operations.
 
 
+// Both `type` and `interface` are used to define the structure of objects in TypeScript. Interfaces can be extended and support declaration merging. Type aliases can also represent union types and other types. Both are useful for defining object structures.
+
+
+// using interface
+interface User1{
+    name: string;
+    age: number;
+}
+
+// using type
+type Userdetails = {
+    name: string;
+    age: number;
+};
