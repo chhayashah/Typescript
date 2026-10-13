@@ -75,3 +75,17 @@ function addData(num1: number, num2: number): number{
 
 let outPut = addData(10, 20)
 console.log(outPut)
+
+
+let a: any = "hello"
+console.log(a.toUpperCase());  // Allowed
+
+let b: unknown = "hello";
+// b.toUpperCase(); // Error
+
+if (typeof b === "string") {
+    console.log(b.toUpperCase());  // Allowed
+}
+
+// any: Allows almost any operation without type checking.
+// - unknown: Requires you to check the type before performing type-specific operations.
